@@ -1,10 +1,22 @@
 $navbar-default-bg: #cc0099;
+//$navbar-fixed-bottom: #cc0099;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 .center {
   text-align: center;
+}
+
+//.navbar-inner {
+//  background-color:#cc0099;
+//}
+
+.navbar-fixed-bottom {
+  text-align: right;
+  background-color:#cc0099;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 .jumbotron {
