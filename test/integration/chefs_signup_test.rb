@@ -25,7 +25,7 @@ class ChefsSignupTest < ActionDispatch::IntegrationTest
                                         password_confirmation: "password" }}
     end
     follow_redirect!
-    assert_select 'chefs/show'
+    assert_template 'chefs/show'
     assert_not flash.empty?
   end
   
